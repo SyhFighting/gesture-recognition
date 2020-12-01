@@ -1,3 +1,4 @@
+# 将测试集送入已训练好的CNN中判断该网络模型的准确率
 import Train_inputdata
 import Train_model
 import tensorflow as tf

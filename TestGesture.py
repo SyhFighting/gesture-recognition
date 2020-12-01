@@ -1,3 +1,4 @@
+# 将实时获取的图片送入已训练好的CNN中判断其手势动作
 from PIL import Image
 import matplotlib.pyplot as plt
 import Train_inputdata

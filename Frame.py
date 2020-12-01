@@ -1,3 +1,4 @@
+# 界面窗口的界面文件，通过PyQt5的designer工具生成
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'Frame.ui'

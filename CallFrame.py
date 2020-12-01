@@ -1,3 +1,4 @@
+# 界面窗口的逻辑文件，用来调用界面文件并编写信号与槽函数。
 import sys
 import time
 import serial  # 这个模块是通信模块

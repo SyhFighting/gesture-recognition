@@ -1,3 +1,4 @@
+# 读取数据集的图像和标签，并打包成batch形式
 import tensorflow as tf
 import numpy as np
 import os

@@ -1,3 +1,4 @@
+# 模型结构，这里用的是AlexNet结构
 import tensorflow as tf
 
 

@@ -1,3 +1,4 @@
+# 利用OpenCV获取图片并标记，用来制作测试集
 import cv2 as cv
 
 img_roi_y = 30

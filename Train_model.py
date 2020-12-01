@@ -40,6 +40,8 @@ def cnn_inference(images, batch_size, n_classes, keep_prob):
         # ksize是池化窗口的大小=[1,height,width,1]，一般height=width=池化窗口的步长
         # 池化窗口的步长一般是比卷积核多移动一位
         # tf.nn.lrn是Local Response Normalization，（局部响应归一化）
+        # 归一化原理是仿造生物学上活跃的神经元对相邻神经元的抑制现象（侧抑制），
+        # 对局部神经元的活动创建竞争机制，使得其中响应比较大的值变得相对更大，并抑制其他反馈较小的神经元，增强了模型的泛化能力
 
     # 第二层的卷积层cov2，这里的命名空间和第一层不一样，所以可以和第一层取同名
     with tf.variable_scope('conv2') as scope:

@@ -1,4 +1,4 @@
-# 将测试集送入已训练好的CNN中判断该网络模型的准确率
+# 训练CNN模型函数，并将训练好的模型参数保存在本地
 import os
 import numpy as np
 import tensorflow as tf
